@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #0b0b0b;
+    color: #f1f1f1;
+}
+
+/* ======= HEADER ======= */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #0f1e0f;
+    border-bottom: 2px solid #065f32;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #00e676;
+    letter-spacing: 1px;
+}
+
+.logo-text {
+    margin-left: 8px;
+}
+
+.nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 0.95rem;
+    transition: 0.3s;
+}
+
+.nav a:hover,
+.nav a.active {
+    color: #00e676;
+}
+
+/* ======= HERO ======= */
+.hero {
+    height: 80vh;
+    background: linear-gradient(to bottom, #0b0b0b 40%, #081808 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #00e676;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #d9d9d9;
+    margin-bottom: 35px;
+    line-height: 1.6;
+}
+
+.btn {
+    background-color: #00e676;
+    color: #0b0b0b;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #00c853;
+}
+
+/* ======= FEATURES ======= */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 20px;
+    background-color: #101010;
+}
+
+.feature {
+    background-color: #121a12;
+    border: 1px solid #065f32;
+    border-radius: 15px;
+    padding: 25px;
+    width: 300px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    border-color: #00e676;
+}
+
+.feature h2 {
+    color: #00e676;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    color: #d9d9d9;
+    font-size: 0.95rem;
+}
+
+/* ======= FOOTER ======= */
+.footer {
+    background-color: #0f1e0f;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    color: #ccc;
+    border-top: 1px solid #065f32;
+}
