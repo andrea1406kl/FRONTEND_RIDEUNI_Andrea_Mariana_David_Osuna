@@ -1,0 +1,85 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background-color: #07345c;
+    padding: 12px 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative; /* Necesario para centrar links */
+}
+
+/* LOGO IZQUIERDA */
+.logo {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+/* LINKS CENTRO */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* CENTRADO */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    color: #b6d6ff;
+}
+
+/* BOTONES DERECHA */
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.25s;
+}
+
+/* DIFERENCIAR REGISTRO */
+.register {
+    border-color: #4ab8ff;
+    color: #4ab8ff;
+}
+
+.register:hover {
+    background: #4ab8ff;
+    color: #07345c;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+    .nav-links {
+        display: none; /* luego puedo activarte un menú hamburguesa */
+    }
+}

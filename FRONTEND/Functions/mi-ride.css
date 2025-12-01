@@ -1,0 +1,89 @@
+/* Estilos Generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6; /* Un gris claro para el fondo */
+    color: #333;
+}
+
+/* Contenedor Principal de la Sección "Crear Viaje" */
+.create-ride-container {
+    max-width: 700px;
+    margin: 50px auto; /* Centra el contenedor y le da espacio */
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-ride-container h1 {
+    color: #0d1e37;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.create-ride-container p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+/* Estilos del Formulario */
+.ride-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre los grupos de formulario */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #0d1e37;
+    font-size: 0.95em;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group input[type="number"],
+.form-group textarea {
+    padding: 12px;
+    border: 1px solid #ccd6e0;
+    border-radius: 6px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #3f72af; /* Color de enfoque similar al azul de RIDEUNI */
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(63, 114, 175, 0.2);
+}
+
+.form-group textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+    min-height: 80px;
+}
+
+/* Botón de Publicar Viaje */
+.btn-submit-ride {
+    background-color: #3f72af; /* Color azul primario de RIDEUNI */
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center
+}

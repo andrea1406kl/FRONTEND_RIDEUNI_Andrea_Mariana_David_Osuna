@@ -1,0 +1,97 @@
+body {
+    background: #f5f7fa;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.rideuni-container {
+    padding: 20px 40px;
+}
+
+/* Información superior */
+.top-info {
+    background: white;
+    padding: 12px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.edit-btn {
+    margin-left: auto;
+    background: #1e9bff;
+    color: white;
+    border: none;
+    padding: 6px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Contenido general */
+.main-content {
+    display: flex;
+    gap: 20px;
+}
+
+/* Panel Izquierdo */
+.left-panel {
+    flex: 1.3;
+    background: #0f2b45;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.map-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Panel Derecho */
+.right-panel {
+    flex: 1;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+/* Cabecera derecha */
+.search-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.hour,
+.price {
+    color: #007bff;
+    font-size: 22px;
+}
+
+/* Lista de resultados */
+.card {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 7px rgba(0,0,0,0.08);
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.card h4 {
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.card p {
+    font-size: 13px;
+    co
+}

@@ -2,134 +2,138 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Segoe UI", sans-serif;
 }
 
 body {
-    background-color: #0b0b0b;
-    color: #f1f1f1;
+    background: #f3f4f7;
+    color: #1a1a1a;
 }
 
-/* ======= HEADER ======= */
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 50px;
-    background-color: #0f1e0f;
-    border-bottom: 2px solid #065f32;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: #00e676;
-    letter-spacing: 1px;
-}
-
-.logo-text {
-    margin-left: 8px;
-}
-
-.nav a {
-    color: #f1f1f1;
-    text-decoration: none;
-    margin-left: 25px;
-    font-size: 0.95rem;
-    transition: 0.3s;
-}
-
-.nav a:hover,
-.nav a.active {
-    color: #00e676;
-}
-
-/* ======= HERO ======= */
 .hero {
-    height: 80vh;
-    background: linear-gradient(to bottom, #0b0b0b 40%, #081808 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: url('c:\Users\marim\OneDrive\Escritorio\RideUni-FRONTEND\fondorideuni.jpg') center/cover no-repeat;
+    padding: 120px 40px;
     text-align: center;
-    padding: 0 30px;
-}
-
-.hero-content {
-    max-width: 700px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .hero h1 {
-    font-size: 2.5rem;
-    color: #00e676;
-    margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 1.1rem;
-    color: #d9d9d9;
-    margin-bottom: 35px;
-    line-height: 1.6;
+    font-size: 17px;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
-.btn {
-    background-color: #00e676;
-    color: #0b0b0b;
-    border: none;
-    padding: 12px 28px;
-    border-radius: 30px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background-color: #00c853;
-}
-
-/* ======= FEATURES ======= */
-.features {
+.hero-buttons {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
-    padding: 60px 20px;
-    background-color: #101010;
+    gap: 20px;
 }
 
-.feature {
-    background-color: #121a12;
-    border: 1px solid #065f32;
-    border-radius: 15px;
-    padding: 25px;
-    width: 300px;
+.btn-primary, .btn-secondary {
+    padding: 14px 28px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: #1a73e8;
+    color: white;
+}
+
+.btn-secondary {
+    background: #fff;
+    color: #1a73e8;
+}
+
+.beneficios {
+    padding: 70px 40px;
     text-align: center;
-    transition: 0.3s;
 }
 
-.feature:hover {
-    transform: translateY(-5px);
-    border-color: #00e676;
+.beneficios h2 {
+    font-size: 26px;
+    margin-bottom: 40px;
 }
 
-.feature h2 {
-    color: #00e676;
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 280px;
+    border-radius: 16px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
+
+.card .icon {
+    font-size: 34px;
     margin-bottom: 15px;
 }
 
-.feature p {
-    color: #d9d9d9;
-    font-size: 0.95rem;
+.card h3 {
+    margin-bottom: 10px;
 }
 
-/* ======= FOOTER ======= */
-.footer {
-    background-color: #0f1e0f;
+
+.testimonios {
+    padding: 60px 20px;
     text-align: center;
-    padding: 15px 0;
-    font-size: 0.9rem;
-    color: #ccc;
-    border-top: 1px solid #065f32;
+}
+
+.test-card {
+    background: #e7f2ff;
+    padding: 40px;
+    border-radius: 14px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.quote {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.user {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.small-btn {
+    padding: 12px 25px;
+}
+
+
+.footer {
+    background: #0c2d48;
+    padding: 30px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer-links a {
+    color: #dce6f2;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
 }

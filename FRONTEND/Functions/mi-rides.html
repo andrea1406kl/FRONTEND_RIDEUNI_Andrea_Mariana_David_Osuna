@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Viaje - RIDEUNI</title>
+    <link rel="stylesheet" href="mi-ride.css"> </head>
+<body>
+    </nav>
+
+    <main class="create-ride-container">
+        <h1>Ofrecer un Nuevo Viaje</h1>
+        <p>Completa los detalles a continuación para publicar tu viaje y encontrar compañeros.</p>
+
+        <form class="ride-form">
+            <div class="form-group">
+                <label for="origen">Origen del Viaje:</label>
+                <input type="text" id="origen" name="origen" placeholder="Ej: Campus Central, Calle 123" required>
+            </div>
+
+            <div class="form-group">
+                <label for="destino">Destino del Viaje:</label>
+                <input type="text" id="destino" name="destino" placeholder="Ej: Centro de la Ciudad, Colonia Sur" required>
+            </div>
+
+            <div class="form-group">
+                <label for="fecha">Fecha del Viaje:</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+
+            <div class="form-group">
+                <label for="hora">Hora de Salida:</label>
+                <input type="time" id="hora" name="hora" required>
+            </div>
+
+            <div class="form-group">
+                <label for="plazas">Plazas Disponibles:</label>
+                <input type="number" id="plazas" name="plazas" min="1" max="8" value="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="precio">Precio por Pasajero (opcional):</label>
+                <input type="number" id="precio" name="precio" min="0" step="0.50" placeholder="Ej: 2.50">
+            </div>
+
+            <div class="form-group">
+                <label for="observaciones">Observaciones Adicionales (opcional):</label>
+                <textarea id="observaciones" name="observaciones" rows="4" placeholder="Ej: Solo se permite equipaje de mano pequeño."></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit-ride">Publicar Viaje</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script> </body>
+</html>
