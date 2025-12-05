@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open home.html",
-            "file": "c:\\Users\\JDOL6\\FRONTEND_RIDEUNI_Andrea_Mariana_David_Osuna\\FRONTEND\\view\\home\\home.html"
+            "file": "${workspaceFolder}/FRONTEND/view/home/home.html"
         }
     ]
 }

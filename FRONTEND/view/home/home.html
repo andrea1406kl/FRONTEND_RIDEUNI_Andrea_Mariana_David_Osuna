@@ -7,7 +7,31 @@
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <script src="navbar"></script>
+    <div id="navbar"></div>
+
+<script>
+document.getElementById("navbar").innerHTML = `
+<link rel="stylesheet" href="../../Functions/navbar.css">
+
+<nav class="navbar">
+    <div class="logo">RIDEUNI</div>
+
+    <ul class="nav-links">
+        <li><a href="../home/home.html">Inicio</a></li>
+        <li><a href="../../ProfileUser/profileUser.html">Perfil</a></li>
+        <li><a href="../../mensaje.html">Mensajes</a></li>
+        <li><a href="../services/buscar.html">Buscar Viaje</a></li>
+        <li><a href="../../Functions/mi-rides.html">Ofrecer Viaje</a></li>
+        <li><a href="../services/contact.html">Contacto</a></li>
+    </ul>
+
+    <div class="navbar-buttons">
+        <button class="btn login">Iniciar Sesión</button>
+        <button class="btn register">Registro</button>
+    </div>
+</nav>
+`;
+</script>
 
     <section class="hero">
         <h1>Viaja Inteligente, Ahorra y Conecta</h1>
