@@ -1,0 +1,152 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #f3f4f7;
+    color: #1a1a1a;
+}
+
+/* HERO */
+.contact-hero {
+    background: #0c2d48;
+    padding: 70px 30px;
+    text-align: center;
+    color: white;
+}
+
+.contact-hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contact-hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.contact-container {
+    padding: 50px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* TARJETAS DE INFORMACIÓN */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.info-card {
+    background: white;
+    padding: 25px;
+    width: 280px;
+    border-radius: 16px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.info-card .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.info-card h3 {
+    color: #07345c;
+    margin-bottom: 8px;
+}
+
+/* FORMULARIO */
+.form-section {
+    background: white;
+    padding: 35px;
+    width: 420px;
+    border-radius: 16px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+    color: #07345c;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
+    font-size: 14px;
+}
+
+.btn-send {
+    background: #1a73e8;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn-send:hover {
+    background: #0f5ac1;
+}
+
+/* MAPA */
+.map-section {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.map-placeholder {
+    width: 100%;
+    max-width: 900px;
+    height: 280px;
+    background: #dce6f2;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #07345c;
+    font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+    background: #0c2d48;
+    padding: 30px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #dce6f2;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}

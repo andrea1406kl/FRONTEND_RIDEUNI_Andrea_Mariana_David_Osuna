@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - RideUni</title>
+
+    <!-- NAVBAR -->
+    <link rel="stylesheet" href="../../Functions/navbar.css">
+
+    <!-- ESTILOS CONTACTO -->
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">RIDEUNI</div>
+
+        <ul class="nav-links">
+            <li><a href="../home/home.html">Inicio</a></li>
+            <li><a href="../../ProfileUser/profileUser.html">Perfil</a></li>
+            <li><a href="../../../mensaje.html">Mensajes</a></li>
+            <li><a href="../services/buscar.html">Buscar Viaje</a></li>
+            <li><a href="../../Functions/mi-rides.html">Ofrecer Viaje</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+
+        <div class="navbar-buttons">
+            <button class="btn login">Iniciar Sesión</button>
+            <button class="btn register">Registro</button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="contact-hero">
+        <h1>Contáctanos</h1>
+        <p>Si tienes dudas, sugerencias o problemas, con gusto te ayudamos.</p>
+    </section>
+
+    <!-- CONTENIDO -->
+    <div class="contact-container">
+
+        <!-- INFO CARDS -->
+        <div class="contact-info">
+
+            <div class="info-card">
+                <div class="icon">📞</div>
+                <h3>Teléfono</h3>
+                <p>+52 644 123 4567</p>
+            </div>
+
+            <div class="info-card">
+                <div class="icon">📧</div>
+                <h3>Correo</h3>
+                <p>soporte@rideuni.com</p>
+            </div>
+
+            <div class="info-card">
+                <div class="icon">📍</div>
+                <h3>Ubicación</h3>
+                <p>Universidad UTS, Cd. Obregón, Sonora</p>
+            </div>
+
+        </div>
+
+        <!-- FORMULARIO -->
+        <div class="form-section">
+            <h2>Envíanos un mensaje</h2>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Correo electrónico</label>
+                    <input type="email" placeholder="correo@ejemplo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Asunto</label>
+                    <input type="text" placeholder="Motivo del mensaje" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Mensaje</label>
+                    <textarea rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-send">Enviar</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- MAPA -->
+    <div class="map-section">
+        <div class="map-placeholder">Mapa de ubicación</div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2024 RideUni. Todos los derechos reservados.</p>
+
+        <div class="footer-links">
+            <a href="#">Contacto</a>
+            <a href="#">Redes Sociales</a>
+            <a href="#">Términos y Condiciones</a>
+            <a href="#">Política y Privacidad</a>
+        </div>
+    </footer>
+
+</body>
+</html>
